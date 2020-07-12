@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "restaurants-search",
-    "slug": "restaurants-search",
+    "slug": "restaurants-search-rahuls360",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,11 +13,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rahuls360.restaurants.search",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.rahuls360.restaurants.search",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
